@@ -1,0 +1,9 @@
+target/
+# dbt <1.0.0
+dbt_modules/
+# dbt >=1.0.0
+dbt_packages/
+macros/
+[sqlfluff:templater:dbt:context]
+myvariable = 1
+testfluff.sql

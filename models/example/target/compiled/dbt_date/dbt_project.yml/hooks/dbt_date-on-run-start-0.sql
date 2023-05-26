@@ -1,0 +1,1 @@
+insert into dbt.audit_table (audit_type) values('run_started'); commit;
